@@ -1,4 +1,5 @@
 import AboutContent from "@/app/components/AboutContent";
+import ContactForm from "@/app/components/ContactMe";
 import ProfileContent from "@/app/components/ProfileContent";
 import Skills from "@/app/components/SkillContent";
 import { notFound } from "next/navigation"; 
@@ -13,6 +14,9 @@ const content = {
   skills: {
     component: <Skills />,
   },
+  contact:{
+    component:<ContactForm/>
+  }
 };
 
 const PortfolioPage = ({ params }) => {

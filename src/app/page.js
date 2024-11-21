@@ -29,7 +29,7 @@ export default function Home() {
           <div className="relative">
             <div className="aspect-[3/4] rounded-[2rem] overflow-hidden border-2 border-zinc-200">
               <Image
-                src="/images/divya.jpeg"
+                // src="/images/divya.jpeg"
                 alt="Divya's Profile"
                 width={600}
                 height={800}

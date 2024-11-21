@@ -53,6 +53,14 @@ export default function Layout({ children }) {
                   Skills
                 </Link>
               </li>
+              <li className="inline-block">
+                <Link
+                  href="/portfolio/contact"
+                  className="hover:text-orange-400 transition duration-200"
+                >
+                  Contact Me
+                </Link>
+              </li>
             </div>
 
             {/* Mobile Hamburger Icon */}
@@ -111,6 +119,15 @@ export default function Layout({ children }) {
                   onClick={toggleMobileMenu}
                 >
                   Skills
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/portfolio/contact"
+                  className="block hover:text-orange-400 transition duration-200"
+                  onClick={toggleMobileMenu}
+                >
+                  Contact Me
                 </Link>
               </li>
             </ul>
